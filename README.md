@@ -3,9 +3,7 @@
 project of 42 school where it is necessary to deploy
 Kubernetes cluster via minikube to run it locally.
 
-the cluster needs to work with several services like nginx, FTPS, wordpress and phpMyAdmin running with mysql database, and grafana linked to InfluxDB database for monitoring.
-
-each service runs in a separate container.
+the cluster works with several services like nginx, FTPS, wordpress and phpMyAdmin running with mysql database, and grafana linked to InfluxDB database for monitoring. each service runs in a separate container.
 
 the initial script builds a custom docker image for each of them before deploying and run them all using custom yaml files.
 
