@@ -27,7 +27,7 @@ if a container component crashes or stops, containers are restarted automaticall
 ### how to use
 before launching `docker`, `kubectl` and `minikube` should be installed.
 
-to launch the project:
+**to launch the project:**
 ```
 bash setup.sh
 ```
@@ -35,7 +35,7 @@ go to the site `https://192.168.99.200` to see all available resources.
 
 wordpress, phpMyAdmin and grafana have the same usernames and passwords: `admin` `admin`
 
-to stop the project:
+**to stop the project:**
 ```
 bash srcs/del.sh
 minikube delete
