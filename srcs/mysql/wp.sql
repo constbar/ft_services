@@ -571,8 +571,8 @@ CREATE TABLE `wp_users` (
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'admin', '$P$B.UXZLYWZ2M.lqWwLNGT5bDTf0Gqkm.', 'admin', 'test@test.com', 'http://192.168.99.200:5050', '2021-04-01 10:00:01', '', 0, 'admin'),
-(2, 'author', '$P$BVe4zVkg2Zb1YXBBzOwCeqlOk.5lNh/', 'author', 'author@agroup.com', '', '2021-04-01 10:03:49', '', 0, 'author'),
-(3, 'editor', '$P$BrUw0Ncnm4Xk.G0wVp4vWCOxuWSm1x.', 'editor', 'editor@agroup.com', '', '2021-04-01 10:04:26', '', 0, 'editor');
+(2, 'author', '$P$BVe4zVkg2Zb1YXBBzOwCeqlOk.5lNh/', 'author', 'author@constbar.com', '', '2021-04-01 10:03:49', '', 0, 'author'),
+(3, 'editor', '$P$BrUw0Ncnm4Xk.G0wVp4vWCOxuWSm1x.', 'editor', 'editor@constbar.com', '', '2021-04-01 10:04:26', '', 0, 'editor');
 
 --
 -- Indexes for dumped tables

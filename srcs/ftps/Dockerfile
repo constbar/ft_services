@@ -1,5 +1,5 @@
 FROM alpine:3.12
-MAINTAINER agroup
+MAINTAINER constbar
 
 RUN apk update
 RUN apk upgrade
@@ -9,7 +9,7 @@ RUN apk add openssl
 COPY ./ /
 RUN openssl req -x509 -new -newkey rsa:2048 -nodes \
     -keyout /etc/ssl/private/privkey.key -out /etc/ssl/certs/cert.crt \
-	-subj "/C=RU/ST=Ivanovskaya/L=Ivanovo/O=ecole42/OU=school21/CN=agroup"
+	-subj "/C=RU/L=Moscow/O=ecole42/OU=school21/CN=constbar"
 
 RUN mv vsftpd.conf /etc/vsftpd/
 RUN chmod +x /etc/vsftpd/vsftpd.conf

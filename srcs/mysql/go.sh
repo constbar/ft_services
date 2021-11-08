@@ -1,5 +1,4 @@
 #!/bin/sh
-
 rc update
 rc default
 rc-service mariadb setup

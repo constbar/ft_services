@@ -1,5 +1,5 @@
-FROM    alpine:3.12
-MAINTAINER agroup
+FROM alpine:3.12
+MAINTAINER constbar
 
 RUN apk update
 RUN apk upgrade vim
