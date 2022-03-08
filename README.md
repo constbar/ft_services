@@ -1,6 +1,6 @@
 ## ft_services
 
-project of 42 school where it is necessary to deploy
+project of École 42 where it is necessary to deploy
 Kubernetes cluster via minikube to run it locally.
 
 the cluster works with several services like nginx, FTPS, wordpress and phpMyAdmin running with mysql database, and grafana linked to InfluxDB database for monitoring. each service runs in a separate container.
